@@ -13,11 +13,11 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 DHTesp dht;
 
-const char* ssid = "ahyarnabila";
-const char* password = "as1968ylnabila";
+const char* ssid = "XXXXXXXXXX";
+const char* password = "XXXXXXXXXX";
 
-#define BOTtoken "959061463:AAEyK7jTT6zJJuraIXm_5Ml7lYjrugnChWg"
-String chat_id = "997562701";
+#define BOTtoken "XXXXXXXXXXXXXXXX"
+String chat_id = "XXXXXXXXXXXXX";
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
 ESP8266WebServer server(80); //Server on port 80
